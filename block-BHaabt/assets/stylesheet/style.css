@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+/* General */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* fontfamily */
+/*  */
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+header{
+   height: 70px;
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(45,38,64);
+    font-size: 40px;
+}
+.link{
+   margin-left: 30px;
+}
+.head-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+}
+.head-btn{
+    font-size: 15px;
+    color: gray;
+    padding: 10px 5px;
+    border-radius: 7%;
+    border: 1px solid grey;
+    background-color: white; 
+}
+/* section-1 */
+.color{
+    background-color: rgb(45,38,64);
+    padding: 40px 0;
+}
+.insurance{
+    color: white;
+    width: 45%;
+   
+    text-align: start;
+   
+   
+}
+.insur-line{
+    width: 200px;
+   margin: 0;
+}
+h2{
+    font-weight: 100;
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    margin: 20px 0;
+}
+p{
+    line-height: 30px;
+}
+.insur-btm{
+    color: white;
+    background-color: rgb(45,38,64);
+    margin: 30px 0;
+}
+.img-blur{
+  width: 100%;
+  margin-bottom: -200px;
+}
+.about{
+    margin-top: 200px;
+    padding-bottom: 50px;
+   
+}
+.article-about{
+    width: 47%;
+    text-align: start;
+    font-size: 20px;
+}
+h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.about-btn{
+    font-size: 20px;
+    padding: 13px;
+    margin-top: 30px;
+}
+/* section-3 */
+.different{
+    text-align: start;
+}
+.process{
+    width: 30%;
+}
+.line-diff{
+    width: 150px;
+    border: none;
+    background-color: rgb(224, 222, 222);
+    height: 3px;
+    margin-left: 0;
+    margin: 40px 0;
+}
+h4{
+   font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+margin: 20px 0;
+}
+.div-setting{
+    background-color: rgb(138,180,240);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.setting{
+    display: inline-block;
+    color: white;
+   margin-top: 11px;
+   margin-left: 10px;
+}
+/* section-4 */
+.find{
+    color: white;
+    /* line-height: 80px; */
+    background-color: rgb(45,38,64);
+   padding: 30px 100px;
+   margin: 50px 0;
+}
+
+.find-btn{
+    color: white;
+    background-color: rgb(45,38,64);
+    border: 1px solid white;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+   text-transform: uppercase;
+}
+/* section-5 */
+
+.icon{
+    font-size: 35px;
+    color: grey;
+}
+.us{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color: rgb(45,38,64);
+   color: rgb(145, 134, 173);
+   font-size: 20px;
+   padding: 30px 0;
+}
+
