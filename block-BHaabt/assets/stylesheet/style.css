@@ -84,7 +84,7 @@ h1{
     font-size: 40px;
 }
 .link{
-    margin: 0 30px;
+   margin-left: 30px;
 }
 .head-link{
     text-decoration: none;
@@ -98,21 +98,19 @@ h1{
     padding: 10px 5px;
     border-radius: 7%;
     border: 1px solid grey;
-    background-color: white;
+    background-color: white; 
 }
 /* section-1 */
 .color{
     background-color: rgb(45,38,64);
-    margin-bottom: 100px;
-    padding: 1px 0;
+    padding: 40px 0;
 }
 .insurance{
     color: white;
-    width: 40%;
-    padding: 50px 0;
+    width: 45%;
+   
     text-align: start;
-    position: relative;
-    margin-top: 20px;
+   
    
 }
 .insur-line{
@@ -123,7 +121,7 @@ h2{
     font-weight: 100;
     font-family: 'DM Serif Display', serif;
     font-size: 70px;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 p{
     line-height: 30px;
@@ -134,11 +132,8 @@ p{
     margin: 30px 0;
 }
 .img-blur{
-    position: absolute;
-   right: 1px;
-   bottom: 1px;
-   margin-right: 170px;
-   
+  width: 100%;
+  margin-bottom: -200px;
 }
 .about{
     margin-top: 200px;
@@ -163,10 +158,9 @@ h3{
 /* section-3 */
 .different{
     text-align: start;
-    padding: 40px 0;
 }
 .process{
-    width: 25%;
+    width: 30%;
 }
 .line-diff{
     width: 150px;
@@ -189,23 +183,20 @@ margin: 20px 0;
     margin-top: 25px;
 }
 .setting{
+    display: inline-block;
     color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-
+   margin-top: 11px;
+   margin-left: 10px;
 }
 /* section-4 */
 .find{
     color: white;
-    line-height: 80px;
+    /* line-height: 80px; */
     background-color: rgb(45,38,64);
+   padding: 30px 100px;
+   margin: 50px 0;
+}
 
-}
-.find-work{
-    margin: 30px;
-}
 .find-btn{
     color: white;
     background-color: rgb(45,38,64);
@@ -213,12 +204,10 @@ margin: 20px 0;
     width: 160px;
     height: 50px;
     border-radius: 5px;
-    margin: 30px;
+   text-transform: uppercase;
 }
 /* section-5 */
-.contactus{
-    margin-top: 70px;
-}
+
 .icon{
     font-size: 35px;
     color: grey;
